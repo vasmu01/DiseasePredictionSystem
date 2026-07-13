@@ -7,7 +7,7 @@ client_secret*.json
 .env
 
 # ML models
-*.pkl
+*#.pkl
 
 # Database
 db.sqlite3
