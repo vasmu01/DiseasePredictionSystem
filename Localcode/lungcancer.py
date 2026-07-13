@@ -159,5 +159,6 @@ for s in suggestions:
     print("- " + s)
 
  # Save the trained model
-with open("lungcancer_model.pkl", "wb") as f:
-    pickle.dump(model, f)
+with open("lung_model.pkl", "wb") as file:
+    pickle.dump(model, file)
+
