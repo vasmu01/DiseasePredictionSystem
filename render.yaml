@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: disease-prediction-system
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+
+    envVars:
+      - key: SECRET_KEY
+        sync: false
+
+      - key: DEBUG
+        value: "False"
