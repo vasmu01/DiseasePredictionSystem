@@ -8,9 +8,9 @@
 [![Django](https://img.shields.io/badge/Django-5.2.8-092E20?logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render&logoColor=black)](https://render.com/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?logo=render&logoColor=black)](https://diseasepredictionsystem-1475.onrender.com/)
 
-[Repository](https://github.com/vasmu01/DiseasePredictionSystem) · [Report an Issue](https://github.com/vasmu01/DiseasePredictionSystem/issues)
+[Live Demo](https://diseasepredictionsystem-1475.onrender.com/) · [Repository](https://github.com/vasmu01/DiseasePredictionSystem) · [Report an Issue](https://github.com/vasmu01/DiseasePredictionSystem/issues)
 
 </div>
 
@@ -716,6 +716,14 @@ SQLite data inside a disposable container is not durable unless the database fil
 ---
 
 ## Deployment on Render
+
+### Live Application
+
+The deployed application is available at:
+
+**[https://diseasepredictionsystem-1475.onrender.com/](https://diseasepredictionsystem-1475.onrender.com/)**
+
+> Render free-tier services may take a short time to wake up after a period of inactivity.
 
 The included `render.yaml` defines a free Docker web service named:
 
